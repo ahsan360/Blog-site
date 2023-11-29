@@ -90,6 +90,113 @@ nav ul li:hover{
    font-size: 1.8rem;
    justify-content: center;
 }
+#about{
+    background-color: #4c4c4c;
+    color: white;
+}
+
+.section-center {
+    padding: 5rem 1rem;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section-heading{  
+    font-size: 8rem;
+    text-align: center;
+    font-family: "Italianno", cursive;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.card{
+    flex: 1;
+    border-radius: 0.6rem;
+    background-color: #a09d9d;
+    padding: 3rem 1rem;
+    margin: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    transition: transform 0.3s;
+    color: black;
+   
+}
+ 
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-d{
+    padding: 0.4rem 0;
+    text-align: justify;
+    font-size: 1.6rem;
+    margin-bottom: 5rem;
+}
+.card-h{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+ 
+.btn {
+    width: 80%;
+    align-self: center;
+    background-color: rgb(230, 159, 8);
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+#archive{
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 1rem;
+}
+.arck-h{
+        margin: 10rem;
+        font-size: 8rem;
+        text-align: center;
+        font-family: "Italianno", cursive;
+        color: black;
+}
+#archive img
+{
+    transition: transform 0.3s;
+    height: 12rem;
+    border-radius: 0.5rem;
+    margin: 2.5rem;
+}
+.ark-contaner{
+   
+    padding: 2rem;
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem solid black;
+     
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ark-list li{
+    display: flex;
+}
+.ark-list li :hover {
+    transform: scale(1.1);
+}
+
 @media only screen and (max-width: 992px){
 
 }
@@ -109,4 +216,9 @@ nav ul li:hover{
         padding-left: 2.5rem;
         flex-direction: column;
     }
+    .banner {
+        flex-direction: column;
+         text-align: center;
+    }
+     
 }

@@ -1,0 +1,15 @@
+main{
+    background-color:chocolate ;
+    padding:1rem;
+    
+}
+.card{
+    width: 25rem;
+    background-color: blueviolet;
+    margin: 1rem;
+    padding: 1rem;
+    
+}
+.card:hover{
+    box-shadow: .1rem .2rem .8rem rgb(128, 0, 38);
+}
