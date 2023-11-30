@@ -196,7 +196,67 @@ ul{
 .ark-list li :hover {
     transform: scale(1.1);
 }
+.blog-post{
+    display: flex;flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.post-heding{
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+.post-sub-heding{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.p-description{
+    margin-bottom: 1rem;
 
+}
+.b-btn{
+    background-color: rgb(230, 159, 8);
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    width: 30%;
+}
+.b-art{
+     font-size: 1.6rem;
+    padding: 1rem;
+}
+.b-post{
+    display: flex;
+    transition: transform 0.3s;
+    gap: 1rem;
+    font-size: 2rem;
+    width: 70%;
+    margin: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+}
+.b-post:hover {
+    transform: scale(1.1);
+}
+.b-imag img{
+   
+    height: 20rem;
+    margin-right: 2rem;
+    
+}
+.contact{
+    background-color:#4c4c4c;
+}
+.cont-h{
+    margin: 10rem;
+    font-size: 8rem;
+    text-align: center;
+    font-family: "Italianno", cursive;
+    color: white;
+}
 @media only screen and (max-width: 992px){
 
 }
@@ -220,5 +280,14 @@ ul{
         flex-direction: column;
          text-align: center;
     }
+    .cards{
+        flex-direction: column;
+         text-align: center;
+    }
+    #archive ul{
+        flex-direction: column;
+         text-align: center;
+    }
+
      
 }
