@@ -25,13 +25,15 @@
         <figure class="logo-figure">
             <i class="fab fa-autoprefixer logo"></i>
         </figure>
-        <nav id="menu-icon">
+            <i class="fas fa-bars fa-4x" id="menu2"></i>
+
+        <nav id="menu-icon" class="hidden">
             <ul>
                 <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link">About</a></li>
-                <li><a href="#" class="nav-link">Archives</a></li>
-                <li><a href="#" class="nav-link">Blog Posts</a></li>
-                <li><a href="#" class="nav-link">Contact</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#archive" class="nav-link">Archives</a></li>
+                <li><a href="#blog-post" class="nav-link">Blog Posts</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
 
         </nav>
@@ -110,11 +112,11 @@
     </section>
     <!-- archive section  end -->
     <!-- Blog post start  end -->
-    <section class="blog-post">
+    <section id="blog-post" class="blog-post">
         <h1 class="arck-h">Blog Posts</h1>
         <div class="b-post">
             <aside class="b-imag">
-                    <img src="./images/img-2.jpg" alt="">
+                <img src="./images/img-2.jpg" alt="">
             </aside>
             <article class="b-art">
                 <h3 class="post-heding">Blog 1</h3>
@@ -129,7 +131,7 @@
         </div>
         <div class="b-post">
             <aside class="b-imag">
-                    <img src="./images/img-2.jpg" alt="">
+                <img src="./images/img-2.jpg" alt="">
             </aside>
             <article class="b-art">
                 <h3 class="post-heding">Blog 1</h3>
@@ -144,7 +146,7 @@
         </div>
         <div class="b-post">
             <aside class="b-imag">
-                    <img src="./images/img-2.jpg" alt="">
+                <img src="./images/img-2.jpg" alt="">
             </aside>
             <article class="b-art">
                 <h2 class="post-heding">Blog 1</h2>
@@ -161,22 +163,42 @@
     </section>
     <!-- Blog section  end -->
     <!-- contact section  sart -->
-    <section class="contact">
+    <section id ="contact" class="contact">
         <h1 class="cont-h">Contact Me</h1>
         <div class="form">
-            <form action="post">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname" value=" "><br>
-                <label for="lname">EMAIL:</label><br>
-                <input type="text" id="lname" name="lname" value=" "><br><br>
-                <label for="lname">Message:</label><br>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <br><br>
-                <input type="submit" value="Submit">
+            <form action="post" class="frm">
+                <div class="name">
+                    <div class="fnm"><label for="fname"> Name:</label></div>
+                    <div class="fnmi"> <input type="text" id="fname" name="fname" value=" "></div>
+                </div>
+                <div class="name">
+                    <div class="fnm"><label for="lname">Email:</label><br></div>
+                    <div class="fnmi"> <input type="text" id="lname" name="lname" value=" "></div>
+                </div>
+                <div class="name">
+                    <div class="fnm"> <label for="lname">Message:</label></div>
+                    <div class="f-txtarea fnm"><textarea name="" id="" cols="20" rows="2"></textarea></div>
+                </div>
+                <div class="frm-btn"> <button type="submit" class="f-btn">SUBMIT</button></div>
+
             </form>
         </div>
     </section>
     <!-- contact section  end -->
+    <section>
+        <div class="footer">
+            <div class="cop">Copyright © by Anisul Islam. All rights reserved.</div>
+            <div class="ico">
+                <i class="fa-brands fa-youtube fa-2xl g"></i>
+                <i class="fa-brands fa-github fa-2xl g"></i>
+                <i class="fa-brands fa-linkedin fa-2xl g"></i>
+                <i class="fa-brands fa-facebook fa-2xl g"></i>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>

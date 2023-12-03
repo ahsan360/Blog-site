@@ -249,6 +249,23 @@ ul{
 }
 .contact{
     background-color:#4c4c4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+
+}
+input {
+    height: 7rem;
+    width: 100%;
+    border-radius: .8rem;
+    resize: none;
+}
+textarea{
+    height: 9rem;
+    width: 100%;
+    border-radius: .6rem;
+    resize: none;
 }
 .cont-h{
     margin: 10rem;
@@ -257,15 +274,91 @@ ul{
     font-family: "Italianno", cursive;
     color: white;
 }
+.form{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222, -0.1rem 0 0.1rem #222;
+    width: 45%;
+    height: 60%;
+}
+.frm-btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.f-btn{
+   
+    background-color: rgb(230, 159, 8);
+    border: none;
+    border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #222;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    width: 30%;
+}
+.name{
+    
+    display: flex;
+}
+.frm{
+    gap: 1rem;
+    color: white;
+    font-size: 1.6rem;
+   
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+}
+.fnm{
+    margin: auto;
+   width: 30%;
+}
+.fnmi{
+   
+    width: 70%;
+}
+.f-txtarea
+{
+   width: 70%;
+}
+.footer{
+    background-color: black;
+    height: 7rem;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    
+}
+.cop{
+    margin: auto;
+    padding: 1rem;
+width: 50%;
+}
+.g{
+    margin: 2rem;
+}
+.ico{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto;
+    padding: 1rem;
+    
+    width: 50%;
+    color: white;
+}
+#menu2{
+    display: none;
+}
 @media only screen and (max-width: 992px){
 
 }
+ 
 @media only screen and (max-width: 768px){
-    html{
-        font-size: 55.5%;
-    }
-}
-@media only screen and (max-width: 600px){
     html{
         font-size: 48.5%;
     }
@@ -273,7 +366,7 @@ ul{
         flex-direction: column;
     }
     nav ul{
-        padding-left: 2.5rem;
+         
         flex-direction: column;
     }
     .banner {
@@ -288,6 +381,40 @@ ul{
         flex-direction: column;
          text-align: center;
     }
-
-     
+    .b-post{
+        display: flex;
+        flex-direction: column;
+    }
+    .b-imag img{
+        width: 100%;
+    }
+    
+    .form{
+        width: 100%;
+    }
+    .name{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .frm{
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .fnm{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .fnmi{
+        width: 100%;
+    }
+    #menu2{
+        display: block;
+        margin: 2rem 0;
+    }
+    .hidden{
+        display: none;
+    }
 }
