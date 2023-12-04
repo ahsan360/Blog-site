@@ -417,4 +417,9 @@ width: 50%;
     .hidden{
         display: none;
     }
+    .banner-img{
+        width: 40rem;
+        height:40rem;
+        border: .3rem solid black;
+    }
 }
